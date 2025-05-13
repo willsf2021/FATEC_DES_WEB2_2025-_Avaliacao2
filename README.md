@@ -77,7 +77,7 @@ avaliacao2/
 1. **Servidor local** (XAMPP, WAMP ou equivalente) com PHP ≥ 7.4 e MySQL.
 2. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/FATEC_DES_WEB2_2025_Avaliacao2.git
+   git clone https://github.com/willsf2021/FATEC_DES_WEB2_2025_Avaliacao2.git
    ```
 
 ## 🔐 Segurança
