@@ -207,6 +207,7 @@ $produtos = $db->listarTodos();
                                     <th>Descrição</th>
                                     <th>Preço</th>
                                     <th>Categoria</th>
+                                    <th>Ações</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -217,6 +218,14 @@ $produtos = $db->listarTodos();
                                         <td><?= htmlspecialchars($produto['descricao']) ?></td>
                                         <td>R$ <?= number_format($produto['preco'], 2, ',', '.') ?></td>
                                         <td><?= htmlspecialchars($produto['categoria']) ?></td>
+                                        <td>
+
+                                            <a
+                                                href="editar_produto.php?id=<?= $produto['id'] ?>"
+                                                class="btn btn-sm btn-primary">Editar</a>
+
+
+                                        </td>
                                     </tr>
                                 <?php endforeach; ?>
                             </tbody>

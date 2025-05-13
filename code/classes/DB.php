@@ -67,4 +67,21 @@ class DB
         $stmt->bindParam(':id', $id, PDO::PARAM_INT);
         return $stmt->execute();
     }
+    
+    public function atualizar($id, $nome_produto, $descricao, $preco, $categoria)
+    {
+        $sql = "UPDATE {$this->table} 
+            SET nome_produto = :nome_produto, 
+                descricao = :descricao, 
+                preco = :preco, 
+                categoria = :categoria 
+            WHERE id = :id";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        $stmt->bindParam(':nome_produto', $nome_produto);
+        $stmt->bindParam(':descricao', $descricao);
+        $stmt->bindParam(':preco', $preco);
+        $stmt->bindParam(':categoria', $categoria);
+        return $stmt->execute();
+    }
 }
