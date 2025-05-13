@@ -45,6 +45,7 @@ avaliacao2/
 │ │ └── login.php # Classe de autenticação
 │ ├── home.php # Painel principal (botões de acesso)
 │ ├── cadastro.php # Formulário de criação de produto
+│ ├── update_produto.php # Página de edição de produto
 │ ├── listar.php # Listagem de produtos + remoção inline
 │ └── remover.php # (Opcional) Remoção via ID em página separada
 ├── screenshots/ # Imagens de demonstração
