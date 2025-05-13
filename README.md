@@ -52,8 +52,7 @@ avaliacao2/
 │ ├── 2.png
 │ ├── 3.png
 │ ├── 4.png
-│ ├── 5.png
-│ └── 6.png
+│ └── 5.png
 ├── loja.sql # Dump do banco de dados MySQL
 ├── README.md # Este arquivo
 └── .gitignore
@@ -67,8 +66,7 @@ avaliacao2/
 ![Screenshot 2](screenshots/2.png)  
 ![Screenshot 3](screenshots/3.png)  
 ![Screenshot 4](screenshots/4.png)  
-![Screenshot 5](screenshots/5.png)  
-![Screenshot 6](screenshots/6.png)
+![Screenshot 5](screenshots/5.png)
 
 ---
 
